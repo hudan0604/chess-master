@@ -1,0 +1,27 @@
+.board__wraper {
+  margin: 50px auto;
+  background: black;
+  width: 700px;
+  height: 700px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wraper__game {
+    margin: auto;
+    background: rgb(231, 205, 205);
+    width: 680px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .game__piece {
+      width: 85px;
+      height: 85px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

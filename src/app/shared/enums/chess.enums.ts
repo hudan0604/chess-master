@@ -1,0 +1,8 @@
+export enum CHESS_TYPE_ENUM {
+  TOWER,
+  FOOL,
+  HORSERIDER,
+  QUEEN,
+  KING,
+  PAWN,
+}

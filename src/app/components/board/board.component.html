@@ -1,0 +1,11 @@
+<div class="board__wraper">
+  <div class="wraper__game">
+    <div
+      *ngFor="let piece of board.pieces"
+      class="game__piece"
+      [ngStyle]="{ background: piece.background }"
+    >
+      <img [src]="piece.imgSrc" *ngIf="piece.type" />
+    </div>
+  </div>
+</div>
